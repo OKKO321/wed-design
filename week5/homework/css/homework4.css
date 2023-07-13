@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: white;
+}
+
+div#boxborder{
+    background-color: black;
+    position: absolute;
+    top: -5px;
+    left: 1.9px;
+    width: 37.5%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 1px;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center ;
+    border: 10px solid black;
+}
+
+.italic-text{
+    font-style: italic;
+    font-weight: 400;
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: 'Lato' , serif;
+    font-weight: 400;
+}
+
+
+p{
+    left: 10%;
+    width: 80%;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lato' , serif;
+    font-weight: 100;
+    position: relative;
+    top: -30px;
+    padding-top: 50px;
+}
+
+div#picture img{
+    height: 628px;
+}
+
+div#picture{
+    background-color: black;
+    padding-left: 7%;
+    padding-right: 28px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 691px;
+    border: 10px solid;
+    bottom: -150px;
+}
+
+

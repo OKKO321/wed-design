@@ -1,0 +1,12 @@
+body {
+    background-color: green;
+    color: cornsilk;
+    text-align: center;
+}
+
+div{
+    border: solid black;
+    border-width: 200px;
+}
+
+

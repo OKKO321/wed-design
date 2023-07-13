@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div#HomePage {
+    background-image: url(file:///D:/Wed%20Design/Week%205/img/forest.jpg);
+  
+}
+
+div#intro1 {
+    background-image: url(file:///D:/Wed%20Design/Week%205/img/forest.jpg);
+    
+    background: size 50px;
+    background-repeat: repeat-x;
+}
+
+div#End {
+    background-image: url(file:///D:/Wed%20Design/Week%205/img/forest.jpg);
+  
+}
+
+

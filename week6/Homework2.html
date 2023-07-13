@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="css/Homework2.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="logo">
+        <img
+          src="img/mount and blade logo.png"
+          alt="mount and blade logo"
+          height="200px"
+        >
+      </div>
+
+      <div id="navigation">
+        <div id="phone">
+          <div>0109869507</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu">
+      <div>Home</div>
+      <div>Contact</div>
+      <div>About Us</div>
+    </div>
+
+    <div id="slideshow">
+      <div class="Slides fade">
+        <div class="numberText">1 / 4</div>
+        <img
+        src="img/mab wallpaper  - vlandia.jpg"
+        alt="Mount and Blade"
+        height="300px"
+        width="100%"
+      >
+      </div>
+
+      <div class="Slides fade">
+        <div class="numberText">2 / 4</div>
+        <img
+        src="img/mab wallpaper  - battania.jpg"
+        alt="Mount and Blade"
+        height="300px"
+        width="100%"
+      >
+      </div>
+
+      <div class="Slides fade">
+        <div class="numberText">3 / 4</div>
+        <img
+        src="img/mab wallpaper  - sturgia.jpg"
+        alt="Mount and Blade"
+        height="300px"
+        width="100%"
+      >
+      </div>
+
+      <div class="Slides fade">
+        <div class="numberText">4 / 4</div>
+        <img
+        src="img/mab wallpaper  - khuzait.jpg"
+        alt="Mount and Blade"
+        height="300px"
+        width="100%"
+      >
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("Slides");
+
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+
+          slides[slideIndex-1].style.display = "block";
+        }
+      </script>
+    </div>
+
+    <div id="feat">
+      <div><img src="img/vlandia.png" alt="Vlandia" ></div>
+      <div><img src="img/battania.png" alt="Battania" ></div>
+      <div><img src="img/sturgia.png" alt="Sturgia" ></div>
+      <div><img src="img/khuzait.png" alt="Khuzait" ></div>
+    </div>
+
+    <div id="content">
+      <div id="text-content">
+        <h1>Calradia</h1>
+        <p>
+          Calradia is a fictional continent and the main setting in the mainline
+          entries of the Mount and Blade series. There are five factions in the
+          original Mount and Blade and six in Mount and Blade: Warband, each with a
+          ruler, a claimant, twenty vassals and a collection of fiefs that make
+          up each faction's region. <br>
+
+          The land of Calradia is neither static nor affected only by the
+          player's actions. Each faction is free to wage war, form alliances, or
+          sign peace treaties with other factions.
+        </p>
+      </div>
+
+      <div id="sidebar">
+        <h1>See Also</h1>
+        <p>Vlandia</p>
+        <p>Battania</p>
+        <p>Sturgia</p>
+        <p>Khuzait</p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div>Footer</div>
+    </div>
+  </body>
+</html>

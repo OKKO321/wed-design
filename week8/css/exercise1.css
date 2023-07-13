@@ -1,0 +1,116 @@
+.container{
+    padding: 10px;
+    background-color: gray;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    height: 50px;
+    background-color: white;
+}
+
+.nav .left {
+    display: flex;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.nav .right {
+    display: flex;
+    margin-left: auto;
+    margin-top: 6px;
+    padding: 10px;
+}
+
+.nav div a {
+    color: gray;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.nav div a:hover {
+    color: black;
+}
+
+.nav .right img{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.content{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-image: url("file:///D:/wed-design/week8/img/hoh-river-valley.jpg");
+}
+
+.center{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.center div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center img{
+    height: 20px;
+
+}
+
+.navCenter{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 10px;
+    justify-content: center;
+}
+
+.bottomLeft{
+    display: flex;
+    position: absolute;
+    color: #f2f2f2;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottomLeft img{
+    border-radius: 50%;
+}
+
+.bottomRight{
+    position: absolute;
+    color: #f2f2f2;
+    border: dashed #f2f2f2;
+    bottom: 8px;
+    right: 16px;
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 90px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.bottomRight h2{
+    font-size: 15px;
+    color: red;
+}
+
+.rightArrow{
+    position: absolute;
+    right: 40px;
+    bottom: 87px;
+}
+
+

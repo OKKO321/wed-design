@@ -1,0 +1,99 @@
+body{
+    width: 98%;
+    background-color: grey;
+}
+
+div#header{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+div#logo{
+    width: 40%;
+    text-align: center;
+    background-color: rgb(207, 187, 187);
+}
+
+div#navigation{
+    width: 60%;
+}
+
+div#navigation div#phone{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    height: 50%;
+    padding-right: 30px;
+    background-color: rgb(217, 214, 214);
+}
+
+div#navigation div#phone div{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+div#navigation div#menu {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    background-color: rgb(217, 214, 214);
+}
+
+div#navigation div#menu div{
+    font-size: 30px;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+div#navigation div#menu div:hover{
+    background-color: rgba(100, 148, 237, 0.3);
+}
+
+div#slideshow{
+    padding: 10px;
+}
+
+div#slideshow img{
+    object-fit: cover;
+    object-position: center;
+}
+
+div#content{
+    display: flex;
+    padding: 10px;
+}
+
+div#content div#text-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    background-color: rgb(217, 214, 214);
+    width: 65%;
+}
+
+div#content div#sidebar{
+    text-align: center;
+    background-color: rgba(184, 219, 221, 0.695);
+    width: 35%;
+}
+
+div#content div#sidebar p {
+    font-size: 20px;
+}
+
+div#footer{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+div#footer div{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(39, 32, 32);
+}
+
