@@ -1,0 +1,230 @@
+.container{
+    padding: 10px;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+}
+
+/*navigation bar*/
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: rgb(47, 47, 56);
+    height: 80px;
+}
+.navbar div#center div{
+    padding: 10px;
+}
+
+.navbar div#logo {
+    height: 50px;
+    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid white;
+}
+
+.navbar div#logo img{
+    width: 50%;
+}
+
+.navbar div#center {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: auto;
+}
+
+.navbar div#right {
+    display: flex;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.navbar div#right img {
+    display: flex;
+    padding-top: 13px;
+    padding-right: 20px;
+    height: 50%;
+}
+
+.navbar div#right div {
+    display: flex;
+    padding-right: 10px;
+}
+
+.navbar div#center a {
+    color: gray;
+    text-align: center;
+    padding: 28px 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar div#center a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/*Header*/
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-image:linear-gradient(rgba(31, 28, 28, 0.864), rgba(255, 255, 255, 0)), url('D:/wed%20design%20-%20Assignment/Wed%20page/img/Wallpaper/sahin-sezer-dincer-_DjBjjmpIIM-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+
+.header div#profile_picture {
+    width:32%;
+    text-align: right;
+}
+
+.header div#profile_picture img {
+    clip-path: circle();
+}
+
+.header div#intro{
+    margin-left: auto;
+    text-align: left;
+    width: 65%;
+    margin-top: 35px;
+}
+
+.header div#intro h1{
+    font-size: 80px;
+    margin: 0px;
+}
+
+.header div#intro h2{
+    font-size: 30px;
+    margin: 0px;
+}
+
+/*Content*/
+.content{
+    padding: 100px;
+    margin: auto;
+}
+
+.content div#cont_head_1{
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.content div#favourite{
+    padding-top: 20px;
+}
+
+.content div#favourite img{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.content div#work_list{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 101.5%;
+    margin-left: -9px;
+}
+
+.content div#work_list div{
+    border: 1px solid white;
+    text-align: center;
+    margin: 10px;
+}
+
+.content div#work_list img{
+    width: 100%;
+}
+
+.content div#work_list div h3{
+    font-size: 25px;
+}
+
+.content div#work_list div p{
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    background-color: rgb(47, 47, 56);
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom:1px solid white ;
+}
+
+.footer div#contact{
+    margin-right: 10px;
+}
+
+.footer div#footer_logo{
+    width: 40%;
+    padding-top: 10px;
+}
+
+.footer div#footer_logo img{
+    width: 20%;
+}
+
+.footer div#footer_logo p{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.footer div#my_work ul li::before{
+    content: "\00BB";
+    padding-right: 10px;
+}
+
+.footer div#my_work {
+    width: 42%;
+}
+
+.footer div#contact {
+    width: 70%;
+}
+
+.footer div#contact img{
+    height: 25px;
+}
+
+.footer div#contact ul li {
+    list-style: none;
+}
+
+.footer div#contact ul li img{
+    position: relative;
+    top: 8px;
+    height: 25px;
+}
+
+.footer div#back_top button{
+    position: fixed;
+    background-color: transparent;
+    right: 10px;
+    bottom: 10px;
+}
+
+.footer div#back_top img{
+    width: 40px;
+}
+
+
+

@@ -1,0 +1,248 @@
+.container{
+    padding: 10px;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+}
+/*navigation bar*/
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: rgb(47, 47, 56);
+    height: 80px;
+}
+.navbar div#center div{
+    padding: 10px;
+}
+
+.navbar div#logo {
+    height: 50px;
+    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid white;
+}
+
+.navbar div#logo img{
+    width: 50%;
+}
+
+.navbar div#center {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: auto;
+}
+
+.navbar div#right {
+    display: flex;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.navbar div#right img {
+    display: flex;
+    padding-top: 13px;
+    padding-right: 20px;
+    height: 50%;
+}
+
+.navbar div#right div {
+    display: flex;
+    padding-right: 10px;
+}
+
+.navbar div#center a {
+    color: gray;
+    text-align: center;
+    padding: 28px 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar div#center a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/*Header*/
+.header {
+    color: aliceblue;
+    background-image: linear-gradient(rgba(31, 28, 28, 0.864), rgba(255, 255, 255, 0)), url('file:///D:/wed%20design%20-%20Assignment/Wed%20page/img/Wallpaper/sebastiaan-stam-5hBREM-5mnQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding: 10px;
+    padding-left: 75px;
+}
+
+.header div#intro h1{
+    font-size: 80px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.header div#intro h2{
+    font-size: 25px;
+}
+
+/*content*/
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 150px;
+}
+
+.content div#cont_left{
+    text-align: center;
+    width: 50%;
+}
+
+.content div#cont_left img{
+    width: 50%;
+    border-radius: 20%;
+}
+
+.content div#cont_left h2{
+    font-size: 20px;
+}
+
+.content div#cont_left p{
+    text-align: left;
+    padding-left: 31%;
+    width: 40%;
+}
+
+.content div#cont_right{
+    width: 50%;
+}
+
+.content div#cont_right img{
+    width: 4%;
+}
+
+.content div#cont_right div#language img{
+    position: relative;
+    padding-left: 48px;
+    top: 10px;
+}
+
+.content div#cont_right div#language label{
+    padding-right: 10px;
+}
+
+.content div#cont_right div#skills img{
+    position: relative;
+    padding-left: 48px;
+    top: 10px;
+}
+
+.content div#cont_right div#skills label{
+    padding-right: 10px;
+}
+
+.content div#cont_right h2{
+    width: 10%;
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+}
+.content div#cont_right li{
+    padding-top: 10px;
+}
+
+.content div#cont_right ul li img{
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+    width: 5%;
+}
+
+
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    background-color: rgb(47, 47, 56);
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom:1px solid white ;
+}
+
+.footer div#contact{
+    margin-right: 10px;
+}
+
+.footer div#footer_logo{
+    width: 40%;
+    padding-top: 10px;
+}
+
+.footer div#footer_logo img{
+    width: 20%;
+}
+
+.footer div#footer_logo p{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.footer div#my_work ul li::before{
+    content: "\00BB";
+    padding-right: 10px;
+}
+
+.footer div#my_work {
+    width: 42%;
+}
+
+.footer div#contact {
+    width: 70%;
+}
+
+.footer div#contact img{
+    height: 25px;
+}
+
+.footer div#contact ul li {
+    list-style: none;
+}
+
+.footer div#contact ul li img{
+    position: relative;
+    top: 8px;
+    height: 25px;
+}
+
+.footer div#back_top button{
+    position: fixed;
+    background-color: transparent;
+    right: 10px;
+    bottom: 10px;
+}
+
+.footer div#back_top img{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
